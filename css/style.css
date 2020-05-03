@@ -317,7 +317,7 @@ height: 261px;
     float: right;
     text-decoration: none;
     color: white;
-    font-style: 'Open sans', Arial, sans-serif;
+    font-style: "Open sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -342,5 +342,5 @@ height: 261px;
 }
 
 .footer span {
-  color: rgb(70, 191, 169);
+  color:rgb(78, 198, 171);
 }
