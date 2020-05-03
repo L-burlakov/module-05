@@ -1,0 +1,347 @@
+.header {
+    width: 1600px;
+    font-size: 30px;
+    font-family: "Roboto", Arial, sans-serif;
+
+  }
+
+.visually-hidden { 
+    position: absolute;
+    height: 1px; 
+    width: 1px;
+    overflow: hidden;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+    margin: -1px;
+}
+
+.page-nav {
+    width: 1110px;
+    padding: 0;
+    text-transform: uppercase;
+    margin: 30px 245px;
+
+  }
+
+  .clearfix::after {
+    display: table;
+    content: " ";
+    clear: both;
+  }
+  
+  .Mart {
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(85, 82, 82);
+
+  }
+  .Mart::first-letter{
+    color: rgb(26, 188, 156);
+    font-weight: bold;
+  }
+  
+  .navigation {
+    float: right;
+    padding: 0;
+    margin: 0;
+    margin-top: 7px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 10px;
+  }
+ 
+  .menu {
+    float: left;
+  }
+  
+  .menu:not(:last-child) {
+    margin-right: 34px;
+  }
+  
+  .menu a{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 14;
+    text-decoration: none;
+    color: rgb(15, 1, 1);
+  }
+  
+  .menu a:hover {
+    color: rgb(26, 188, 156);
+    cursor: pointer;
+  }
+
+  .container {
+    background-image: linear-gradient(rgba(50,50,50,0.34), rgba(50,50,50,0.34)), url(../img/back-big.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    margin: 0;
+    height: 600px;
+    padding-left: 428px;
+    padding-top: 220px;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+  }
+
+.main_text {
+    letter-spacing: -2px;
+}
+
+h1{
+    margin: 0 auto;
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.container p{
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.slider_button_wrapper {
+    position: absolute;
+    top: 226px;
+    left: 245px;
+}
+
+.slider_button {
+    margin: 0 auto;
+    width: 104px;
+    height: 104px;
+    background-color: rgba(78, 198, 171, 0.65);
+    cursor: pointer;
+}
+
+.prev {
+    background-image: url(../img/left.png);
+    float: left;
+    margin-right: 904px;
+    z-index: 2;
+    border: none;
+}
+.next {
+    background-image: url(../img/right.png);
+    float: right;
+    border: none;
+}
+
+.collection {
+    background-color: rgb(233, 240, 253);
+    padding-top: 94px;
+    width: 1600px;
+    padding-bottom: 100px;
+}
+
+h2{
+    padding-left: 610px;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    margin: 0 auto;
+  }
+
+ h2::after {
+    content: '';
+    display: block;
+    width: 175px;
+    margin-left: 110px;
+    margin-top: 16px;
+    margin-bottom: 82px;
+    border-bottom: 7px solid rgb(78, 198, 171);
+  }
+
+.goods {
+    margin: 0;
+    padding-left: 245px;
+    font-family: "Roboto", Arial, sans-serif;
+    color: white;
+}
+
+  .product-Item {
+    box-sizing: border-box;
+    float: left;
+    margin: 0px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .product-Item:nth-of-type(4n) {
+    margin: 0px;
+  }
+  
+  .cover-text:hover {
+    background-image:linear-gradient(to right, rgb(26, 188, 156) 200px, rgb(127, 217, 199) 55px);
+    cursor: pointer;
+  }
+  
+  .prod-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 76px;
+  }
+  
+  .card {
+  margin: 0;
+  padding: 0;
+  background-color:white;
+  width: 254px;
+  }
+  
+  .card img {
+    background-color:rgba(233, 240, 253, 1);
+  }
+  
+  .cover-text {
+    margin: 0;
+    height: 40px;
+    background-image:linear-gradient(to right, rgb(50, 50, 50) 200px, rgb(140, 140, 140) 55px);
+  }
+  
+  .text-product a{
+    color: white;
+    padding: 13px;
+    text-decoration: none;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 900;
+  }
+  
+  .text-product{
+    float: left;
+    text-transform: uppercase;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .price {
+    float: right;
+    padding: 13px;
+    margin: 0;
+    color: white;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+  }
+
+  .overlay {
+    width: 234px;
+    height: 262px;
+    background-color: rgba(0, 0, 0, 0.55);
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+  }
+
+  .social_list_icon {
+        list-style: none;  
+        border-width: 1px;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;     
+        width: 50px;
+        height: 50px;
+        float: left;
+  }
+
+.social_list_icon:not(:last-child) {
+        margin-right: 7px;
+}
+
+.s_i_heart {
+    background-image: url(../img/heart.png);
+}
+.s_i_cross {
+    background-image: url(../img/cross.png);
+}
+.s_i_time {
+    background-image: url(../img/time.png);
+}
+
+.cover_social {
+position: relative;
+width: 255px;
+height: 261px;
+}
+
+.overlay:hover {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+}
+ 
+.social_list {
+    position: absolute;
+    top: 78px;
+    left: -6px;
+}
+
+.social_list_icon:hover {
+  background-color: rgb(26, 188, 156);
+}
+  .social_list_icon_wide {
+        list-style: none;  
+        border-width: 1px;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        background-color: rgb(50, 50, 50);
+        width: 164px;
+        height: 48px;
+        padding-right: 4px;
+        position: absolute;
+        top: 137px;
+        left: 34px;
+      }
+.social_list_icon_wide:hover {
+  background-color: rgb(26, 188, 156);
+}
+
+.add p {
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-style: 'Open sans', Arial,  sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-right: 15px;
+    margin-top: 18px;
+} 
+.add img {
+    float: left;
+}
+
+.footer {
+  background-color: rgb(50, 50, 50);
+  color: ;
+  width: 1600px;
+  height: 88px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(254, 254, 254);
+  line-height: 1.75;
+  padding-top: 38px;
+}
+
+.footer span {
+  color: rgb(70, 191, 169)
+}
