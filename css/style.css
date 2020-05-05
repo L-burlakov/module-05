@@ -1,5 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .header {
     width: 1600px;
+    margin: 0 auto;
     font-size: 30px;
     font-family: "Roboto", Arial, sans-serif;
 
@@ -22,7 +29,6 @@
     padding: 0;
     text-transform: uppercase;
     margin: 30px 245px;
-
   }
 
   .clearfix::after {
@@ -80,8 +86,8 @@
     background-image: linear-gradient(rgba(50,50,50,0.34), rgba(50,50,50,0.34)), url(../img/back-big.png);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100%;
-    margin: 0;
+    width: 100%;
+    margin: 0 auto;
     height: 600px;
     padding-left: 428px;
     padding-top: 220px;
@@ -139,7 +145,9 @@ h1{
     background-color: rgb(233, 240, 253);
     padding-top: 94px;
     width: 1600px;
+    margin: 0 auto;
     padding-bottom: 100px;
+
 }
 
 h2{
@@ -192,6 +200,7 @@ h2{
     margin: 0;
     padding: 0;
     margin-bottom: 76px;
+    
   }
   
   .card {
@@ -239,8 +248,8 @@ h2{
   }
 
   .overlay {
-    width: 234px;
-    height: 262px;
+    width: 254px;
+    height: 284px;
     background-color: rgba(0, 0, 0, 0.55);
     border-width: 10px;
     border-color: rgb(255, 255, 255);
@@ -279,6 +288,7 @@ h2{
 position: relative;
 width: 255px;
 height: 261px;
+transform: translate(34px,78px);
 }
 
 .overlay:hover {
@@ -289,8 +299,6 @@ height: 261px;
  
 .social_list {
     position: absolute;
-    top: 78px;
-    left: -6px;
 }
 
 .social_list_icon:hover {
@@ -306,8 +314,7 @@ height: 261px;
         height: 48px;
         padding-right: 4px;
         position: absolute;
-        top: 137px;
-        left: 34px;
+        top: 59px;
       }
 .social_list_icon_wide:hover {
   background-color: rgb(26, 188, 156);
