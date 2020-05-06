@@ -5,11 +5,9 @@
 }
 
 .header {
-    width: 1600px;
     margin: 0 auto;
     font-size: 30px;
     font-family: "Roboto", Arial, sans-serif;
-
   }
 
 .visually-hidden { 
@@ -28,7 +26,9 @@
     width: 1110px;
     padding: 0;
     text-transform: uppercase;
-    margin: 30px 245px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
   }
 
   .clearfix::after {
@@ -87,18 +87,27 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    margin: 0 auto;
+
     height: 600px;
-    padding-left: 428px;
-    padding-top: 220px;
     text-align: left;
     text-transform: uppercase;
     color: white;
+
+  }
+
+  .container_in {
+    width: 1110px;
+    margin: 0 auto;
     position: relative;
   }
 
 .main_text {
     letter-spacing: -2px;
+    position: absolute;
+    margin: 0;
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(25%, 190%);
 }
 
 h1{
@@ -112,17 +121,19 @@ h1{
     margin: 0 auto;
     font-size: 24px;
     font-weight: 300;
+
 }
 
 .slider_button_wrapper {
+    margin: 0;
     position: absolute;
     top: 226px;
-    left: 245px;
+    left: 0px;
 }
 
 .slider_button {
     margin: 0 auto;
-    width: 104px;
+    width: 100px;
     height: 104px;
     background-color: rgba(78, 198, 171, 0.65);
     cursor: pointer;
@@ -132,7 +143,6 @@ h1{
     background-image: url(../img/left.png);
     float: left;
     margin-right: 904px;
-    z-index: 2;
     border: none;
 }
 .next {
@@ -141,38 +151,42 @@ h1{
     border: none;
 }
 
+.bckg_color {
+  background-color: rgb(233, 240, 253);
+  width: 100%;
+}
+
 .collection {
     background-color: rgb(233, 240, 253);
+    width: 1110px;
     padding-top: 94px;
-    width: 1600px;
     margin: 0 auto;
     padding-bottom: 100px;
-
+    position: relative;
 }
 
 h2{
-    padding-left: 610px;
     font-family: "Roboto", Arial, sans-serif;
     font-weight: 900;
     font-size: 48px;
     color: rgb(81, 81, 81);
     text-transform: uppercase;
     margin: 0 auto;
+    text-align: center;
   }
 
  h2::after {
     content: '';
     display: block;
     width: 175px;
-    margin-left: 110px;
+    margin-left: 475px;
     margin-top: 16px;
-    margin-bottom: 82px;
+    margin-bottom: 82px; 
     border-bottom: 7px solid rgb(78, 198, 171);
   }
 
 .goods {
     margin: 0;
-    padding-left: 245px;
     font-family: "Roboto", Arial, sans-serif;
     color: white;
 }
@@ -337,7 +351,6 @@ transform: translate(34px,78px);
 
 .footer {
   background-color: rgb(50, 50, 50);
-  width: 1600px;
   height: 88px;
   text-align: center;
   font-size: 16px;
